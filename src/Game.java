@@ -62,5 +62,9 @@ public class Game {
 			}
 
 		}
+		if(isTerminalState())
+		{
+			System.out.println("Game is Tied");
+		}
 	}
 }
